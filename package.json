@@ -1,0 +1,21 @@
+{
+  "name": "aim-test",
+  "version": "1.0.0",
+  "description": "JS Test work",
+  "main": "splitTextToSms.js",
+  "type": "commonjs",
+  "scripts": {
+    "start": "node ./dist/splitTextToSms.js",
+    "build": "tsc",
+    "test": "jest"
+  },
+  "author": "Alexey Abramenko",
+  "license": "ISC",
+  "devDependencies": {
+    "@types/jest": "^29.5.1",
+    "jest": "^29.5.0",
+    "ts-jest": "^29.1.0",
+    "ts-node": "^10.9.1",
+    "typescript": "^5.0.4"
+  }
+}
